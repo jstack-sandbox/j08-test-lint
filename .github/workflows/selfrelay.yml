@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: ["feature/**"]
   workflow_run:
-    workflows: [selfrelay]
+    workflows: [someotherflow]
     types: [completed]
 
 permissions: {}
